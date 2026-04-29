@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Sarah Mitchell",
+      "email": "sarah@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Cardiology",
+      "experience": 12,
+      "availability": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "avatar": "SM"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. James Carter",
+      "email": "james@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Dermatology",
+      "experience": 8,
+      "availability": [
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "avatar": "JC"
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Emily Chen",
+      "email": "emily@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Neurology",
+      "experience": 15,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "avatar": "EC"
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. Michael Brown",
+      "email": "michael@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Orthopedics",
+      "experience": 10,
+      "availability": [
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "avatar": "MB"
+    },
+    {
+      "id": "doc-5",
+      "name": "Dr. Priya Sharma",
+      "email": "priya@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Pediatrics",
+      "experience": 7,
+      "availability": [
+        "Monday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "avatar": "PS"
+    },
+    {
+      "id": "doc-6",
+      "name": "Dr. Robert Wilson",
+      "email": "robert@hospital.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Cardiology",
+      "experience": 20,
+      "availability": [
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "avatar": "RW"
+    },
+    {
+      "id": "pat-1",
+      "name": "John Doe",
+      "email": "john@mail.com",
+      "password": "patient123",
+      "role": "patient"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1001",
+      "patientId": "pat-1",
+      "patientName": "John Doe",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Mitchell",
+      "specialization": "Cardiology",
+      "date": "2026-05-05",
+      "time": "10:00 AM",
+      "symptoms": "Chest pain and shortness of breath",
+      "status": "Scheduled",
+      "createdAt": "2026-04-28T10:00:00.000Z"
+    },
+    {
+      "id": "apt-1002",
+      "patientId": "pat-1",
+      "patientName": "John Doe",
+      "doctorId": "doc-3",
+      "doctorName": "Dr. Emily Chen",
+      "specialization": "Neurology",
+      "date": "2026-04-25",
+      "time": "02:00 PM",
+      "symptoms": "Frequent headaches",
+      "status": "Completed",
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": "apt-1777493798160-227",
+      "patientId": "pat-1",
+      "patientName": "John Doe",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Mitchell",
+      "specialization": "Cardiology",
+      "date": "2026-05-01",
+      "time": "10:00 AM",
+      "symptoms": "headace",
+      "status": "Scheduled",
+      "createdAt": "2026-04-29T20:16:38.160Z"
+    }
+  ]
+}
